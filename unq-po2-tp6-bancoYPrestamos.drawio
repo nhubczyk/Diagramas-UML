@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T00:40:06.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Syic8Sx72Wjp-9ib8NrP" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T00:45:48.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_lRXUDYC3ZW20JKOkHsE" version="20.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Banco" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="100" width="250" height="86" as="geometry">
+          <mxGeometry x="100" width="250" height="112" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -17,6 +17,9 @@
         </mxCell>
         <mxCell id="nXirv4v_2NxMpNf5sszM-36" value="+ agregarSolicitud(SoliciitudesDeCredito)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UyTelR8Un_5538GLBF2C-5" value="+ montoTotalADesembolsar():Float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+          <mxGeometry y="86" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -47,15 +50,17 @@
         <mxCell id="nXirv4v_2NxMpNf5sszM-38" value="+ solicitarCredito()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="128" width="180" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="nXirv4v_2NxMpNf5sszM-5" value="clientes" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.624;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nXirv4v_2NxMpNf5sszM-36" edge="1">
+        <mxCell id="nXirv4v_2NxMpNf5sszM-5" value="clientes" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.852;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UyTelR8Un_5538GLBF2C-5" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="250" y="120" as="sourcePoint" />
+            <mxPoint x="300" y="130" as="sourcePoint" />
             <mxPoint x="400" y="130" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="320" y="140" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nXirv4v_2NxMpNf5sszM-6" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="360" y="124" width="30" height="30" as="geometry" />
+          <mxGeometry x="360" y="130" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nXirv4v_2NxMpNf5sszM-7" value="SolicitudesDeCredito" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="190" width="160" height="120" as="geometry" />
