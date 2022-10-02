@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-02T00:46:20.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0iN8QEmrcUDev1GdnUqf" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-02T01:05:20.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="h6vHFiJuMSNkH0Tau2Qi" version="20.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1240" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="723" dy="1544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -161,6 +161,15 @@
         </mxCell>
         <mxCell id="UyTelR8Un_5538GLBF2C-4" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="275" y="-30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UyTelR8Un_5538GLBF2C-6" value="1. No viola el principio Single responsability.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;Todas las clases tienen una funcionalidad bien definida.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="535" y="-5" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UyTelR8Un_5538GLBF2C-7" value="2. El sistema queda abierto para sumar nuevos clientes &lt;br&gt;y nuevas solicitudes de crédito al banco.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="30" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UyTelR8Un_5538GLBF2C-8" value="3. No viola el principio Liskow ya que para calcular el monto a desembolsar,&lt;br&gt;se lo pregunta a la interfaz y luego los subtipos harán distintos cálculos&amp;nbsp;&lt;br&gt;para ver si es aceptable o no. Es decir, no depende de los subtipos.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="60" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
