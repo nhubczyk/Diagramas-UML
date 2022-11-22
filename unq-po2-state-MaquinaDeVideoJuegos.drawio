@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T14:57:58.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="udJW4TYFNgY0IILXR0k1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T14:58:51.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oTHEGxOx5xudC5evyr4G" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry y="164" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SFOYFUCtj3-T00dfImxZ-9" value="&lt;&lt;Abstract&gt;&gt;&#xa;EstadoMaquina" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="120" width="280" height="126" as="geometry" />
+          <mxGeometry x="460" y="120" width="280" height="126" as="geometry" />
         </mxCell>
         <mxCell id="SFOYFUCtj3-T00dfImxZ-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="SFOYFUCtj3-T00dfImxZ-9">
           <mxGeometry y="40" width="280" height="8" as="geometry" />
@@ -42,6 +42,18 @@
         </mxCell>
         <mxCell id="SFOYFUCtj3-T00dfImxZ-14" value="+ jugar(MaquinaDeVideoJuegos):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" vertex="1" parent="SFOYFUCtj3-T00dfImxZ-9">
           <mxGeometry y="100" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="SFOYFUCtj3-T00dfImxZ-17" value="estadoMaquina" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.375" y="10" relative="1" as="geometry">
+            <mxPoint x="300" y="200" as="sourcePoint" />
+            <mxPoint x="460" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFOYFUCtj3-T00dfImxZ-18" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="SFOYFUCtj3-T00dfImxZ-17">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="140" y="-7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
