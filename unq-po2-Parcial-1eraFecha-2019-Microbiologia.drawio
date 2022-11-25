@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T00:00:29.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="m-sfl2xuvqkQxMborxMH" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T00:02:04.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Qc04sq48aekYDNjn6tfI" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1695" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="O7S_VX6b6viSIunpqF-N-39" value="InstitutoDeMicrobiologia" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-120" y="-70" width="160" height="60" as="geometry" />
+          <mxGeometry x="-120" y="-60" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O7S_VX6b6viSIunpqF-N-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#457B9D;fontSize=12;labelBackgroundColor=#F1FAEE;fontColor=#1D3557;" parent="O7S_VX6b6viSIunpqF-N-39" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -166,7 +166,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="O7S_VX6b6viSIunpqF-N-43" value="Barril" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="85" y="-350" width="280" height="188" as="geometry" />
+          <mxGeometry x="85" y="-370" width="280" height="212" as="geometry" />
         </mxCell>
         <mxCell id="O7S_VX6b6viSIunpqF-N-44" value="+ añoDeFabricacion:int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#1D3557;" parent="O7S_VX6b6viSIunpqF-N-43" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -188,6 +188,9 @@
         </mxCell>
         <mxCell id="Pr7hTI1TtVQBn5ycZ-nh-3" value="+ getConsumoDeBacteriasYPoblacion():double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#1D3557;" parent="O7S_VX6b6viSIunpqF-N-43" vertex="1">
           <mxGeometry y="162" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RkOVPNnY5TRF1ns8KXqb-3" value="+ getCodigo():int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#1D3557;" vertex="1" parent="O7S_VX6b6viSIunpqF-N-43">
+          <mxGeometry y="188" width="280" height="24" as="geometry" />
         </mxCell>
         <mxCell id="O7S_VX6b6viSIunpqF-N-47" value="barriles" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O7S_VX6b6viSIunpqF-N-39" edge="1">
           <mxGeometry x="0.3447" y="13" relative="1" as="geometry">
