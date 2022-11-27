@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-27T22:19:08.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JweZ7-xQwtjv8bkH2pE7" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-27T22:41:04.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="z8rvN0GRHKzboHwrQzX5" version="20.6.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1695" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,7 +147,7 @@
         <mxCell id="Q4Jgzchujn3yijIAJBRP-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Q4Jgzchujn3yijIAJBRP-45" vertex="1">
           <mxGeometry y="40" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Q4Jgzchujn3yijIAJBRP-48" value="+ addItem(PolizaDeSeguros):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" parent="Q4Jgzchujn3yijIAJBRP-45" vertex="1">
+        <mxCell id="Q4Jgzchujn3yijIAJBRP-48" value="+ addItem(PolizaDeSeguros, Item):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" parent="Q4Jgzchujn3yijIAJBRP-45" vertex="1">
           <mxGeometry y="48" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q4Jgzchujn3yijIAJBRP-52" value="+ cerrarInventario(PolizaDeSeguros):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=2" parent="Q4Jgzchujn3yijIAJBRP-45" vertex="1">
@@ -177,7 +177,7 @@
         <mxCell id="Q4Jgzchujn3yijIAJBRP-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Q4Jgzchujn3yijIAJBRP-55" vertex="1">
           <mxGeometry y="26" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Q4Jgzchujn3yijIAJBRP-71" value="+ addItem(PolizaDeSeguros):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="Q4Jgzchujn3yijIAJBRP-55" vertex="1">
+        <mxCell id="Q4Jgzchujn3yijIAJBRP-71" value="+ addItem(PolizaDeSeguros, Item):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="Q4Jgzchujn3yijIAJBRP-55" vertex="1">
           <mxGeometry y="34" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q4Jgzchujn3yijIAJBRP-72" value="+ cerrarInventario(PolizaDeSeguros):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="Q4Jgzchujn3yijIAJBRP-55" vertex="1">
@@ -195,7 +195,7 @@
         <mxCell id="Q4Jgzchujn3yijIAJBRP-61" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Q4Jgzchujn3yijIAJBRP-59" vertex="1">
           <mxGeometry y="26" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Q4Jgzchujn3yijIAJBRP-73" value="+ addItem(PolizaDeSeguros):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="Q4Jgzchujn3yijIAJBRP-59" vertex="1">
+        <mxCell id="Q4Jgzchujn3yijIAJBRP-73" value="+ addItem(PolizaDeSeguros, Item):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="Q4Jgzchujn3yijIAJBRP-59" vertex="1">
           <mxGeometry y="34" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pHL_Qw1ODz_Hr5uAMKWi-2" value="+ cerrarInventario(PolizaDeSeguros):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="Q4Jgzchujn3yijIAJBRP-59">
@@ -213,7 +213,7 @@
         <mxCell id="Q4Jgzchujn3yijIAJBRP-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Q4Jgzchujn3yijIAJBRP-63" vertex="1">
           <mxGeometry y="26" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="pHL_Qw1ODz_Hr5uAMKWi-4" value="+ addItem(PolizaDeSeguros):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="Q4Jgzchujn3yijIAJBRP-63">
+        <mxCell id="pHL_Qw1ODz_Hr5uAMKWi-4" value="+ addItem(PolizaDeSeguros, Item):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="Q4Jgzchujn3yijIAJBRP-63">
           <mxGeometry y="34" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Q4Jgzchujn3yijIAJBRP-75" value="+ cancelarPoliza(PolizaDeSeguros):String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="Q4Jgzchujn3yijIAJBRP-63" vertex="1">
